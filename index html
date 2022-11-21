@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfollio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hollie Sundra</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <section id="aboutme" class="bio">
+        <h1 style="color:black"><center>About Me</center></h1>
+        <br>
+        <br>
+        <p><center>I am a software developer with a heavy interest in game design.</center></p>
+        <p><center>I have an artistic background with a love for all thing creative.</center></p>
+        <p><center>I enjoy solving problems by coming up with new and intovative solutions.</center></p>
+        <p><center>On my free time I can be found making art with my kids or out on a trail.</center></p>
+     </section>
+
+    <section id="projects" class="projects">
+        <article class="calculator">
+            <a href="#" target="_blank"><img src="./assets/images/calculator.webp" /></a>  
+        </article>
+        <article class="run-buddy">
+            <a href="#" target="_blank"><img src="./assets/images/doggo.jpg" /></a>
+        </article>
+        <article class="led-wall">
+            <a href="#" target="_blank"><img src="./assets/images/LED-wall.png" /></a>
+        </article>
+        <article class="pocket-puzzle">
+            <a href="#" target="_blank"><img src="./assets/images/pocket-puzzle.png" /></a>
+        </article>
+        <article class="surf-report" >
+            <a href="#" target="_blank"><img src="./assets/images/surf-report.png" /></a>
+        </article>
+    </section>
+
+    <footer id="contact" class="contact">
+        <h2>Contact</h2>
+        <h3>
+            📞 256-684-0137 📧 holliesundra@gmail.com
+        </h3>
+    </footer>
+</body>
+
+</html>
